@@ -1,0 +1,15 @@
+# Core dependencies for web scraping
+# requests: HTTP library for making web requests
+requests~=2.31.0
+
+# beautifulsoup4: Library for parsing HTML and XML documents
+beautifulsoup4~=4.12.2
+
+# lxml: A fast and robust HTML/XML parser, often used as a backend for BeautifulSoup
+# It's generally recommended over the default 'html.parser' for performance and robustness.
+lxml~=4.9.3
+
+# Optional but highly recommended for structured data handling and export
+# pandas: Powerful data manipulation and analysis library, excellent for working with
+# tabular data and exporting to formats like CSV and JSON.
+pandas~=2.1.3

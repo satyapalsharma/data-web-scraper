@@ -1,0 +1,78 @@
+# Python
+# Virtual environment
+venv/
+.venv/
+env/
+*.pyc
+__pycache__/
+
+# Distribution / build artifacts
+.Python/
+build/
+develop-eggs/
+dist/
+eggs/
+.egg/
+.egg-info/
+*.egg-info/
+*.so
+*.pyd
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+# PyCharm
+.idea/
+# VS Code (uncomment if you want to ignore user-specific settings,
+# but often committed for shared project settings)
+#.vscode/
+
+# Operating System files
+# macOS
+.DS_Store
+.Trashes
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Project-specific ignores
+# Output files (CSV, JSON, etc.)
+# Assuming output files are generated into an 'output' directory or directly in the root
+output/
+*.csv
+*.json
+*.xlsx
+*.txt
+
+# Log files
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Sensitive configuration or local overrides (if applicable)
+# config.py is part of the project, but if there were local overrides, they'd go here.
+# Example: config.local.py
+# .env
+# .env.local
